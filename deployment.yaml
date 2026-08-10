@@ -17,7 +17,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: hello-app
-          image: ghcr.io/nhn-academy-marco/hello-app:latest
+          image: ghcr.io/nhn-academy-marco/hello-app:301d90fec5a0ca5e2d213f417f0cc3d841c226df
           ports:
             - containerPort: 8080
           readinessProbe:
