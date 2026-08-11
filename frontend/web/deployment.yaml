@@ -18,7 +18,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: front-web
-          image: ghcr.io/nhn-academy-marco/front-web:4b8b0cbd41578b22d717c74d56c8249e61f41ae0
+          image: ghcr.io/nhn-academy-marco/front-web:fe6fd8f5d9dce22c6c09f8640d6e6997d9543985
           ports:
             - containerPort: 8080
           env:
