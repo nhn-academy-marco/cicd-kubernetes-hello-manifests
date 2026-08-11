@@ -18,7 +18,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: api-gateway
-          image: ghcr.io/nhn-academy-marco/infra-gateway:f47521ad8e6d40b97c380e46944edbc85b973de6
+          image: ghcr.io/nhn-academy-marco/infra-gateway:7b9fb422b1a9a584ea048b7e37fd133fe8254d30
           ports:
             - containerPort: 8080
           env:
