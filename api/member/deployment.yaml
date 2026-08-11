@@ -18,7 +18,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: member-api
-          image: ghcr.io/nhn-academy-marco/member-api:a8a299be60f2b589a1bd09d57fc2fb6d3a280326
+          image: ghcr.io/nhn-academy-marco/member-api:bd737b4ca9ec8cf891d59f12aac9d6f8f53ac6d1
           ports:
             - containerPort: 8080
           env:
